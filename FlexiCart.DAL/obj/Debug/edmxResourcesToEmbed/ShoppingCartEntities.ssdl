@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ShoppingCartDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="ProductID" />
+    </Key>
+    <Property Name="ProductID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SKU" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="100" />
+    <Property Name="UnitPrice" Type="decimal" Precision="8" Scale="2" />
+    <Property Name="Images" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="PromotionRule">
+    <Key>
+      <PropertyRef Name="RuleID" />
+    </Key>
+    <Property Name="RuleID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RuleName" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Description" Type="varchar" MaxLength="100" />
+    <Property Name="IsActive" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="ShoppingCartDBModelStoreContainer">
+    <EntitySet Name="Product" EntityType="Self.Product" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PromotionRule" EntityType="Self.PromotionRule" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
