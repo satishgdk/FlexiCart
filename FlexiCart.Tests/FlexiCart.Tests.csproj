@@ -54,6 +54,20 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FlexiCart.Model\FlexiCart.Model.csproj">
+      <Project>{65A87B6E-667B-4AB7-9D29-4F6995DA3AFD}</Project>
+      <Name>FlexiCart.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FlexiCart.Service.Interfaces\FlexiCart.Service.Interfaces.csproj">
+      <Project>{BC6DAB53-26BF-450F-8063-917A9BC9D4D6}</Project>
+      <Name>FlexiCart.Service.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FlexiCart.Service\FlexiCart.Service.csproj">
+      <Project>{0FE32B72-C923-43D2-B003-20793D9E9FFC}</Project>
+      <Name>FlexiCart.Service</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

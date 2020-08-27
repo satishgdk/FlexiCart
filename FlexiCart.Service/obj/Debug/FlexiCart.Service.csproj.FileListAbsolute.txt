@@ -8,3 +8,9 @@ C:\MyPractice\FlexiCart\FlexiCart.Service\bin\Debug\FlexiCart.Service.Interfaces
 C:\MyPractice\FlexiCart\FlexiCart.Service\bin\Debug\FlexiCart.Model.pdb
 C:\MyPractice\FlexiCart\FlexiCart.Service\bin\Debug\FlexiCart.Service.Interfaces.pdb
 C:\MyPractice\FlexiCart\FlexiCart.Service\obj\Debug\FlexiCart.Service.csproj.CopyComplete
+C:\MyPractice\FlexiCart\FlexiCart.Service\bin\Debug\FlexiCart.Service.dll.config
+C:\MyPractice\FlexiCart\FlexiCart.Service\bin\Debug\EntityFramework.dll
+C:\MyPractice\FlexiCart\FlexiCart.Service\bin\Debug\FlexiCart.DAL.dll
+C:\MyPractice\FlexiCart\FlexiCart.Service\bin\Debug\FlexiCart.DAL.pdb
+C:\MyPractice\FlexiCart\FlexiCart.Service\bin\Debug\FlexiCart.DAL.dll.config
+C:\MyPractice\FlexiCart\FlexiCart.Service\bin\Debug\EntityFramework.xml

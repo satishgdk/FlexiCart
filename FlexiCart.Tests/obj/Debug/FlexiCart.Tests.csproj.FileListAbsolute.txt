@@ -12,3 +12,15 @@ C:\MyPractice\FlexiCart\FlexiCart.Tests\bin\Debug\nunit.framework.pdb
 C:\MyPractice\FlexiCart\FlexiCart.Tests\bin\Debug\nunit.framework.xml
 C:\MyPractice\FlexiCart\FlexiCart.Tests\obj\Debug\FlexiCart.Tests.csprojAssemblyReference.cache
 C:\MyPractice\FlexiCart\FlexiCart.Tests\obj\Debug\FlexiCart.Tests.csproj.CopyComplete
+C:\MyPractice\FlexiCart\FlexiCart.Tests\bin\Debug\FlexiCart.Model.dll
+C:\MyPractice\FlexiCart\FlexiCart.Tests\bin\Debug\FlexiCart.Service.dll
+C:\MyPractice\FlexiCart\FlexiCart.Tests\bin\Debug\FlexiCart.Service.Interfaces.dll
+C:\MyPractice\FlexiCart\FlexiCart.Tests\bin\Debug\EntityFramework.dll
+C:\MyPractice\FlexiCart\FlexiCart.Tests\bin\Debug\FlexiCart.DAL.dll
+C:\MyPractice\FlexiCart\FlexiCart.Tests\bin\Debug\FlexiCart.Model.pdb
+C:\MyPractice\FlexiCart\FlexiCart.Tests\bin\Debug\FlexiCart.Service.Interfaces.pdb
+C:\MyPractice\FlexiCart\FlexiCart.Tests\bin\Debug\FlexiCart.Service.pdb
+C:\MyPractice\FlexiCart\FlexiCart.Tests\bin\Debug\FlexiCart.Service.dll.config
+C:\MyPractice\FlexiCart\FlexiCart.Tests\bin\Debug\EntityFramework.xml
+C:\MyPractice\FlexiCart\FlexiCart.Tests\bin\Debug\FlexiCart.DAL.pdb
+C:\MyPractice\FlexiCart\FlexiCart.Tests\bin\Debug\FlexiCart.DAL.dll.config
