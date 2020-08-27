@@ -130,6 +130,41 @@ namespace FlexiCart.Model.Entities
 
     }
 
-     
+
+    /// <summary>
+    /// This class is implement new feature promoting Discount
+    /// </summary>
+    public class DiscountedPromotion : SimplePromotion
+    {
+        /// <summary>
+        /// Apply the Promotion logic at cartItem with Discount on Product Unit Price
+        /// </summary>
+        /// <param name="cart"></param>
+        public override void ApplyRule(ShoppingCartModel shoppingCartModel)
+        {
+            bool hasMatch = false;
+            do
+            {
+                var r = shoppingCartModel.CartItems.Where(c => c.ToBeProcessedQty > 0)
+                     .FirstOrDefault(c => c.Item.SKU == Group.ProductName && c.ToBeProcessedQty >= Group.Qty);
+                if (r != null)
+                {
+                    r.GrossAmount += (r.Item.UnitPrice - (r.Item.UnitPrice * ((DiscountCriteria)(Group)).Discount) * Group.Qty);
+                    r.ProcessedQty += Group.Qty;
+                    r.ToBeProcessedQty -= Group.Qty;
+
+                    hasMatch = true;
+                }
+                else
+                {
+                    hasMatch = false;
+                }
+            }
+            while (hasMatch);
+        }
+
+    }
+
+
 }
 
