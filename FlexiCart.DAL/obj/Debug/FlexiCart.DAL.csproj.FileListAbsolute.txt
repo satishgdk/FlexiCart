@@ -1,0 +1,4 @@
+C:\MyPractice\FlexiCart\FlexiCart.DAL\bin\Debug\FlexiCart.DAL.dll
+C:\MyPractice\FlexiCart\FlexiCart.DAL\bin\Debug\FlexiCart.DAL.pdb
+C:\MyPractice\FlexiCart\FlexiCart.DAL\obj\Debug\FlexiCart.DAL.dll
+C:\MyPractice\FlexiCart\FlexiCart.DAL\obj\Debug\FlexiCart.DAL.pdb

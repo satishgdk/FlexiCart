@@ -1,0 +1,4 @@
+C:\MyPractice\FlexiCart\FlexiCart.Tests\bin\Debug\FlexiCart.Tests.dll
+C:\MyPractice\FlexiCart\FlexiCart.Tests\bin\Debug\FlexiCart.Tests.pdb
+C:\MyPractice\FlexiCart\FlexiCart.Tests\obj\Debug\FlexiCart.Tests.dll
+C:\MyPractice\FlexiCart\FlexiCart.Tests\obj\Debug\FlexiCart.Tests.pdb

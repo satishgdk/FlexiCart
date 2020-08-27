@@ -1,0 +1,5 @@
+C:\MyPractice\FlexiCart\FlexiCart.Service\bin\Debug\FlexiCart.Service.dll
+C:\MyPractice\FlexiCart\FlexiCart.Service\bin\Debug\FlexiCart.Service.pdb
+C:\MyPractice\FlexiCart\FlexiCart.Service\obj\Debug\FlexiCart.Service.csprojAssemblyReference.cache
+C:\MyPractice\FlexiCart\FlexiCart.Service\obj\Debug\FlexiCart.Service.dll
+C:\MyPractice\FlexiCart\FlexiCart.Service\obj\Debug\FlexiCart.Service.pdb

@@ -1,0 +1,6 @@
+C:\MyPractice\FlexiCart\FlexiCart\bin\Debug\FlexiCart.exe.config
+C:\MyPractice\FlexiCart\FlexiCart\bin\Debug\FlexiCart.exe
+C:\MyPractice\FlexiCart\FlexiCart\bin\Debug\FlexiCart.pdb
+C:\MyPractice\FlexiCart\FlexiCart\obj\Debug\FlexiCart.csprojAssemblyReference.cache
+C:\MyPractice\FlexiCart\FlexiCart\obj\Debug\FlexiCart.exe
+C:\MyPractice\FlexiCart\FlexiCart\obj\Debug\FlexiCart.pdb
