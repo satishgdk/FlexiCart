@@ -43,5 +43,19 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FlexiCart.DAL\FlexiCart.DAL.csproj">
+      <Project>{31a7c9e9-477b-4a53-b5f3-6336329dbca8}</Project>
+      <Name>FlexiCart.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FlexiCart.Model\FlexiCart.Model.csproj">
+      <Project>{65a87b6e-667b-4ab7-9d29-4f6995da3afd}</Project>
+      <Name>FlexiCart.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FlexiCart.Service.Interfaces\FlexiCart.Service.Interfaces.csproj">
+      <Project>{bc6dab53-26bf-450f-8063-917a9bc9d4d6}</Project>
+      <Name>FlexiCart.Service.Interfaces</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
